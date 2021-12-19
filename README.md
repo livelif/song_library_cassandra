@@ -8,3 +8,5 @@ We used Cassandra.
 Cassandra is a NoSQL database that used Nodes. Basically, you create a partition key to create a node in system file. Each node use a hashkey as a index, so when you do a select statement is really fast because the query do a direct access on the data
 
 ![CompositeDataDistributionNodes](CompositeDataDistributionNodes.JPG)
+
+For more informations: "https://www.baeldung.com/cassandra-keys" 
